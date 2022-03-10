@@ -1,8 +1,7 @@
-import 'package:Clinica_Camila_Revelo/Citas.dart';
-import 'package:Clinica_Camila_Revelo/Tratamientos.dart';
-import 'package:Clinica_Camila_Revelo/datos.dart';
-import 'package:Clinica_Camila_Revelo/pagos.dart';
-
+import 'package:Clinica_Camila_Revelo/views/Citas.dart';
+import 'package:Clinica_Camila_Revelo/views/Tratamientos.dart';
+import 'package:Clinica_Camila_Revelo/views/datos.dart';
+import 'package:Clinica_Camila_Revelo/views/pagos.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MenuPrincipal());

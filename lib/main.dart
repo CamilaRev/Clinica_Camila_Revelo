@@ -1,6 +1,7 @@
 
-import 'package:Clinica_Camila_Revelo/Login.dart';
+import 'package:Clinica_Camila_Revelo/views/login.dart';
 import 'package:flutter/material.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -15,7 +16,13 @@ class MyApp extends StatelessWidget {
       ),
      initialRoute:Login.id ,
      routes: {
+       
        Login.id: (context)=> Login(),
+       
+      
+      'login':(BuildContext context)=> Login(),
+      
+      
      },
     );
   }
